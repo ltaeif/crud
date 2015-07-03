@@ -97,8 +97,8 @@ function beforeSubmit(){
 				return false
         }
 		
-		//Taille maximale 1 MB (2097152)
-		if(fsize>2097152) 
+		//Taille maximale 10 MB (10485760)
+		if(fsize>10485760)
 		{
 			$("#alerte").html("<b>"+bytesToSize(fsize) +"</b> Too big Video file! <br />Please reduce the size of your photo using an image editor.");
 			return false
@@ -142,8 +142,8 @@ function bytesToSize(bytes) {
 					</div>
 					<form class="form-horizontal" action="processuploadvideopresse.php?id=<?=$id;?>" method="post" enctype="multipart/form-data" id="MyUploadForm">
 					
-					  <p class="alert alert-info" style="width:350px">Taille maximale 2 MB<br>
-					  Extension des videos autorisées : Avi, mp4, flv,  webm,  ogv, 3gp, wmv
+					  <p class="alert alert-info" style="width:350px">Taille maximale 10 MB<br>
+					  Extension des videos autorisées : Avi, mp4, webm, ogv, 3gp, wmv
 					  </p>
 					  
 					  

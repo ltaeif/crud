@@ -32,7 +32,7 @@ if(isset($_POST) && isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SER
 	//as well as creates new image from given file
 	
 	
-	$allowedExts = array( "3gp", "mp4", "wma","x-ms-wmv","w-flv", "webm", "ogv","x-msvideo");
+	$allowedExts = array( "3gp", "mp4", "wma","x-ms-wmv", "webm", "ogv","x-msvideo");
 	//echo $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 	
 	
