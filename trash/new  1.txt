@@ -1,0 +1,312 @@
+<body>
+	
+	<div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="../">Admin Panel</a>
+                    <div class="nav-collapse collapse">
+                      
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="index.php?lan=an">FREE SIGHT ASSOCIATION - جمعية رؤية حرة</a>
+                            </li>   <li class="">
+                                <a href="index.php?lan=an">accueil</a>
+                            </li>
+                          </ul>
+						  						    <ul class="nav pull-right">
+                            <li class="">
+                                <a href="?page=ajoute&amp;&amp;lan=an"><img src="icon/an.png" width="20px" height="20px"></a>
+                            </li>   
+							
+							<li class="">
+                                <a href="?page=ajoute&amp;lan=fr"><img src="icon/fr.png" width="20px" height="20px"></a>
+                            </li>
+                          </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>	
+
+    <div class="container">
+	
+			<div class="row-fluid">
+			
+			<div class="span3" id="sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
+                        <li class="active">
+                            <a href="index.php?lan=an"><i class="icon-chevron-right"></i> accueil</a>
+                        </li>
+						
+						<li>
+                            <a href="?page=qui&amp;action=index"><i class="icon-chevron-right"></i> Qui sommes nous ?</a>
+                        </li>
+						
+						<li>
+                             <a href="?page=projet&amp;action=index"><i class="icon-chevron-right"></i> Listes des Projets</a>
+                        </li>
+						
+						
+						
+						<li>
+                            <a href="?page=ajoute&amp;"><i class="icon-chevron-right"></i> nouveau artilce press</a>
+                        </li>
+						
+							<li>
+                             <a href="?page=album&amp;action=index"><i class="icon-chevron-right"></i> Album</a>
+                        </li>
+						
+                    </ul>
+			</div>
+            
+			
+		<div class="span9" id="content">
+				
+				<div class="row-fluid">
+    			<h3>Les Projets</h3>
+    		</div>
+			<div class="row-fluid">
+				
+				
+				<p>
+					<a href="?page=projet&amp;action=create_projet" class="btn btn-success">Create</a>
+				</p>
+				
+				
+				
+				
+				
+					   <table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+								 <th></th>
+								  <th></th>
+								  <th></th>
+								</tr>
+							</thead>
+						 <tbody>
+					   <tr>
+					   <td><img width="90px" height="90px" src="uploads/thumb-6673899_239730053.jpg"> </td>
+					   
+					   <td><h2> PROJET Numero 43</h2>
+					   <table class="table table-striped table-bordered">
+		              <thead>
+		                <tr>
+						  <th>id projet</th>
+		                  <th>Titre</th>
+		                  <th>Description</th>
+						  <th>Ville</th>
+		                  <th>Lang</th>
+		                  <th>Action</th>
+		                </tr>
+		              </thead>
+		              <tbody><tr><td>43</td><td>titre</td><td>qsdqsdqsdqsdaaaaaa...</td><td>Sidi Bouzid</td><td>ar</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=66&amp;id_projet=43">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=66&amp;id_projet=43">Update</a></td></tr><tr><td>43</td><td>titre</td><td></td><td></td><td>en</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=65&amp;id_projet=43">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=65&amp;id_projet=43">Update</a></td></tr><tr><td>43</td><td>titre</td><td></td><td></td><td>fr</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=64&amp;id_projet=43">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=64&amp;id_projet=43">Update</a></td></tr>	  </tbody>
+	            </table></td>
+					   
+					   <td><a class="btn btn-danger" href="?page=projet&amp;action=delete_projet&amp;id=43">Delete</a>
+							<a class="btn btn-success" href="?page=projet&amp;action=update_projet&amp;id=43">Mise à jour Image</a>
+							
+							
+					   </td>
+					   
+					   </tr>
+					   </tbody>
+					   </table>
+					   <table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+								 <th></th>
+								  <th></th>
+								  <th></th>
+								</tr>
+							</thead>
+						 <tbody>
+					   <tr>
+					   <td><img width="90px" height="90px" src="uploads/6670620_676889919.jpg"> </td>
+					   
+					   <td><h2> PROJET Numero 42</h2>
+					   <table class="table table-striped table-bordered">
+		              <thead>
+		                <tr>
+						  <th>id projet</th>
+		                  <th>Titre</th>
+		                  <th>Description</th>
+						  <th>Ville</th>
+		                  <th>Lang</th>
+		                  <th>Action</th>
+		                </tr>
+		              </thead>
+		              <tbody><tr><td>42</td><td>titre</td><td>qddqsdqsdééééé�...</td><td>Gafsa</td><td>ar</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=63&amp;id_projet=42">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=63&amp;id_projet=42">Update</a></td></tr><tr><td>42</td><td>titre</td><td>qsdqsdqsdqqsdqsdqsdq...</td><td>Sfax</td><td>en</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=62&amp;id_projet=42">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=62&amp;id_projet=42">Update</a></td></tr><tr><td>42</td><td>titre</td><td></td><td></td><td>fr</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=61&amp;id_projet=42">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=61&amp;id_projet=42">Update</a></td></tr>	  </tbody>
+	            </table></td>
+					   
+					   <td><a class="btn btn-danger" href="?page=projet&amp;action=delete_projet&amp;id=42">Delete</a>
+							<a class="btn btn-success" href="?page=projet&amp;action=update_projet&amp;id=42">Mise à jour Image</a>
+							
+							
+					   </td>
+					   
+					   </tr>
+					   </tbody>
+					   </table>
+					   <table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+								 <th></th>
+								  <th></th>
+								  <th></th>
+								</tr>
+							</thead>
+						 <tbody>
+					   <tr>
+					   <td><img width="90px" height="90px" src="uploads/maphoto_1053805291.jpg"> </td>
+					   
+					   <td><h2> PROJET Numero 32</h2>
+					   <table class="table table-striped table-bordered">
+		              <thead>
+		                <tr>
+						  <th>id projet</th>
+		                  <th>Titre</th>
+		                  <th>Description</th>
+						  <th>Ville</th>
+		                  <th>Lang</th>
+		                  <th>Action</th>
+		                </tr>
+		              </thead>
+		              <tbody><tr><td>32</td><td>titre</td><td></td><td></td><td>ar</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=33&amp;id_projet=32">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=33&amp;id_projet=32">Update</a></td></tr><tr><td>32</td><td>titre</td><td></td><td></td><td>en</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=32&amp;id_projet=32">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=32&amp;id_projet=32">Update</a></td></tr><tr><td>32</td><td>titre</td><td></td><td></td><td>fr</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=31&amp;id_projet=32">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=31&amp;id_projet=32">Update</a></td></tr>	  </tbody>
+	            </table></td>
+					   
+					   <td><a class="btn btn-danger" href="?page=projet&amp;action=delete_projet&amp;id=32">Delete</a>
+							<a class="btn btn-success" href="?page=projet&amp;action=update_projet&amp;id=32">Mise à jour Image</a>
+							
+							
+					   </td>
+					   
+					   </tr>
+					   </tbody>
+					   </table>
+					   <table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+								 <th></th>
+								  <th></th>
+								  <th></th>
+								</tr>
+							</thead>
+						 <tbody>
+					   <tr>
+					   <td><img width="90px" height="90px" src="uploads/maphoto_137142286.jpg"> </td>
+					   
+					   <td><h2> PROJET Numero 27</h2>
+					   <table class="table table-striped table-bordered">
+		              <thead>
+		                <tr>
+						  <th>id projet</th>
+		                  <th>Titre</th>
+		                  <th>Description</th>
+						  <th>Ville</th>
+		                  <th>Lang</th>
+		                  <th>Action</th>
+		                </tr>
+		              </thead>
+		              <tbody><tr><td>27</td><td>titre</td><td></td><td>Nabeul</td><td>ar</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=18&amp;id_projet=27">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=18&amp;id_projet=27">Update</a></td></tr><tr><td>27</td><td>titre</td><td></td><td></td><td>en</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=17&amp;id_projet=27">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=17&amp;id_projet=27">Update</a></td></tr><tr><td>27</td><td>titre</td><td></td><td></td><td>fr</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=16&amp;id_projet=27">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=16&amp;id_projet=27">Update</a></td></tr>	  </tbody>
+	            </table></td>
+					   
+					   <td><a class="btn btn-danger" href="?page=projet&amp;action=delete_projet&amp;id=27">Delete</a>
+							<a class="btn btn-success" href="?page=projet&amp;action=update_projet&amp;id=27">Mise à jour Image</a>
+							
+							
+					   </td>
+					   
+					   </tr>
+					   </tbody>
+					   </table>
+					   <table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+								 <th></th>
+								  <th></th>
+								  <th></th>
+								</tr>
+							</thead>
+						 <tbody>
+					   <tr>
+					   <td><img width="90px" height="90px" src="uploads/ingenieur - copie_17987284.jpg"> </td>
+					   
+					   <td><h2> PROJET Numero 26</h2>
+					   <table class="table table-striped table-bordered">
+		              <thead>
+		                <tr>
+						  <th>id projet</th>
+		                  <th>Titre</th>
+		                  <th>Description</th>
+						  <th>Ville</th>
+		                  <th>Lang</th>
+		                  <th>Action</th>
+		                </tr>
+		              </thead>
+		              <tbody><tr><td>26</td><td>Sfax</td><td>SfaxSfaxSfaxSfaxSvSf...</td><td>Jendouba</td><td>ar</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=15&amp;id_projet=26">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=15&amp;id_projet=26">Update</a></td></tr><tr><td>26</td><td>titre</td><td>Soussseess</td><td>Sousse</td><td>en</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=14&amp;id_projet=26">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=14&amp;id_projet=26">Update</a></td></tr><tr><td>26</td><td>titre</td><td></td><td></td><td>fr</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=13&amp;id_projet=26">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=13&amp;id_projet=26">Update</a></td></tr>	  </tbody>
+	            </table></td>
+					   
+					   <td><a class="btn btn-danger" href="?page=projet&amp;action=delete_projet&amp;id=26">Delete</a>
+							<a class="btn btn-success" href="?page=projet&amp;action=update_projet&amp;id=26">Mise à jour Image</a>
+							
+							
+					   </td>
+					   
+					   </tr>
+					   </tbody>
+					   </table>
+					   <table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+								 <th></th>
+								  <th></th>
+								  <th></th>
+								</tr>
+							</thead>
+						 <tbody>
+					   <tr>
+					   <td><img width="90px" height="90px" src="uploads/cin_769236121.jpeg"> </td>
+					   
+					   <td><h2> PROJET Numero 25</h2>
+					   <table class="table table-striped table-bordered">
+		              <thead>
+		                <tr>
+						  <th>id projet</th>
+		                  <th>Titre</th>
+		                  <th>Description</th>
+						  <th>Ville</th>
+		                  <th>Lang</th>
+		                  <th>Action</th>
+		                </tr>
+		              </thead>
+		              <tbody><tr><td>25</td><td>Title2</td><td>Title22</td><td></td><td>ar</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=12&amp;id_projet=25">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=12&amp;id_projet=25">Update</a></td></tr><tr><td>25</td><td>titre</td><td></td><td></td><td>en</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=11&amp;id_projet=25">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=11&amp;id_projet=25">Update</a></td></tr><tr><td>25</td><td>titre</td><td></td><td></td><td>fr</td><td width="250"><a class="btn" href="?page=projet&amp;action=read_projet_lang&amp;id=10&amp;id_projet=25">Read</a>&nbsp;<a class="btn btn-success" href="?page=projet&amp;action=update_projet_lang&amp;id=10&amp;id_projet=25">Update</a></td></tr>	  </tbody>
+	            </table></td>
+					   
+					   <td><a class="btn btn-danger" href="?page=projet&amp;action=delete_projet&amp;id=25">Delete</a>
+							<a class="btn btn-success" href="?page=projet&amp;action=update_projet&amp;id=25">Mise à jour Image</a>
+							
+							
+					   </td>
+					   
+					   </tr>
+					   </tbody>
+					   </table>				
+				
+							</div>				
+				
+		</div> <!-- 
+			
+			
+			
+			
+			
+			
+			</div> <!-- Row Fluid -->
+    </div> <!-- /container -->
+  
+</div><script src="chrome-extension://hhojmcideegachlhfgfdhailpfhgknjm/web_accessible_resources/index.js"></script></body>
